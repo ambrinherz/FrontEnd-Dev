@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Quiz</title>
+
+
+<link rel="stylesheet" href="quiz.css">
+ 
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>JavaScript Quiz</h1>
+</div>
+<form id="form1">
+
+<h2>Which is incorrect statement?</h2>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />variables can be defined using var,let or const.</label>
+<label for="var_join"><input type="radio" name="variable" value="25" id="var_join" />value const can be changed once initialized.</label>
+<label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />variables can define data types-strings,numbers and objects.</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>same variable can be used to hold different data types.</label>
+
+<h2>Which is incorrect about javascript data display?</h2>
+<label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Data can be displayed by writing into html element using innerHTML().</label>
+<label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Data can be displayed by writing into the HTML output using document.write()</label>
+<label for="sub_info"><input type="radio" name="sub" value="25" id="sub_info" />Data can be displayed by writing into an alert box, using screen.alert()</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Data can be displayed by writing into the browser console, using console.log().</label>
+
+<h2>Which is the best description of concatenation?</h2>
+<label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Recognizes a portion of a string.</label>
+<label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to combine strings.</label>
+<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />A method to split strings</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to search string for a specific pattern.</label>
+
+<h2>Which is the best description of an if statement?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Executes block of code if condition is false.</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />Executes block of code atleast once before checking condition.</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />switches to alternative blocks of code based on condition.</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Executes block of code if condition is true.</label>
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+    
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+
+
+<script src="quiz.js"></script>
+
+
+
+</div>
+</body>
+</html>
